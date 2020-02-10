@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_campus"
+            android:icon="@drawable/ic_term"
+            android:title="Campus" />
+
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_course"
+            android:title="Product" />
+
+        <item
+            android:id="@+id/nav_warranty"
+            android:icon="@drawable/ic_assessment"
+            android:title="Warranty" />
+
+        <item
+            android:id="@+id/nav_vendor"
+            android:icon="@drawable/ic_mentor"
+            android:title="Vendor" />
+
+        <item android:id="@+id/nav_note"
+            android:icon="@drawable/ic_note"
+            android:title="Note" />
+
+    </group>
+
+</menu>

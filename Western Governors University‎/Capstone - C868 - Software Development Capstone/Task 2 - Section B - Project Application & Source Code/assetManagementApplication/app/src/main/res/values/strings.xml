@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Degree Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_mentor">MentorActivity</string>
+
+
+    //Term Strings
+    <string name="term_name">Term Name: </string>
+    <string name="start_date">Start Date:  </string>
+    <string name="end_date">End Date: </string>
+
+    //Course Strings
+    <string name="course_name">Course Name: </string>
+    <string name="course_start_date">Start Date: </string>
+    <string name="course_end_date">End Date: </string>
+    <string name="course_status">Status: </string>
+    <string name="course_term">Term: </string>
+
+    //Assessment Strings
+    <string name="assessment_code">Code: </string>
+    <string name="assessment_name">Assessment Name: </string>
+    <string name="assessment_date_time"><![CDATA[Date & Time]]></string>
+    <string name="assessment_description">Description: </string>
+
+    //Mentor Strings
+    <string name="course_mentor">Course Mentor: </string>
+    <string name="course_mentor_phonenumber">Phone Number: </string>
+    <string name="course_mentor_email">Email: </string>
+
+
+</resources>

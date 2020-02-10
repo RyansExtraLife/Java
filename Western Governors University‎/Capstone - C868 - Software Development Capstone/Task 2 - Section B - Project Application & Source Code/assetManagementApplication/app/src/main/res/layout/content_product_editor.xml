@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Product"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="8dp"
+        android:text="Product Name:" />
+
+    <EditText
+        android:id="@+id/editTextCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewCourseStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="14dp"
+        android:text="Product Status:" />
+
+    <Spinner
+        android:id="@+id/course_status_spinner"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCourseStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_margin="8dp"
+        android:text="Purchase Date:" />
+
+    <EditText
+        android:id="@+id/editTextCourseStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_margin="8dp"
+        android:focusableInTouchMode="false"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textViewCourseEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="8dp"
+        android:text="MFG Warranty Exires:" />
+
+    <EditText
+        android:id="@+id/editTextCourseEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_margin="8dp"
+        android:focusableInTouchMode="false"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/textViewTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_margin="14dp"
+        android:text="Campus:" />
+
+    <Spinner
+        android:id="@+id/term_selector_spinner"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</GridLayout>
