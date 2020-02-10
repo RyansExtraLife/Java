@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.ReportWindowController">
+   <children>
+      <Pane prefHeight="92.0" prefWidth="785.0" style="-fx-background-color: #f2f3f7;">
+         <children>
+            <Label fx:id="reportsHeaderLabel" alignment="CENTER" layoutX="3.0" layoutY="5.0" prefHeight="83.0" prefWidth="776.0" text="Appointment Window" />
+         </children>
+      </Pane>
+      <Pane layoutY="92.0" prefHeight="9.0" prefWidth="785.0" style="-fx-background-color: #cdcfce;" />
+      <Pane layoutY="101.0" prefHeight="484.0" prefWidth="785.0" style="-fx-background-color: #e0e1e4;">
+         <children>
+            <Pane layoutX="9.0" prefHeight="474.0" prefWidth="767.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+               <children>
+                  <Pane layoutY="397.0" prefHeight="74.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;">
+                     <children>
+                        <Pane layoutY="70.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                        <Label fx:id="selectLocale" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="27.0" prefHeight="27.0" prefWidth="66.0" />
+                        <ComboBox fx:id="languageComboBox" layoutX="85.0" layoutY="27.0" onAction="#changeInLanguageComboBox" prefWidth="150.0" value="United States">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="United States" />
+                                    <String fx:value="Spain" />
+                                    <String fx:value="France" />
+                                </FXCollections>
+                             </items>
+                        </ComboBox>
+                        <Button fx:id="applicaitonWindowButton" layoutX="386.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionAppointmentsButton" text="Appointments" />
+                        <Button fx:id="customerWindowButton" layoutX="509.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionCustomersButton" text="Customers" />
+                        <Button fx:id="reportsWindowButton" layoutX="615.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionReportsButton" text="Reports" />
+                        <Button fx:id="exitApplicationButton" layoutX="704.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionExitButton" text="Exit " />
+                </children>
+                  </Pane>
+                  <Pane layoutY="400.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                  <Pane prefHeight="43.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;" />
+                  <TabPane layoutY="-1.0" prefHeight="401.0" prefWidth="767.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Appointment By Type">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="308.0" prefWidth="776.0">
+                                 <children>
+                                    <ScrollPane layoutY="50.0" prefHeight="324.0" prefViewportHeight="372.0" prefViewportWidth="767.0" prefWidth="769.0">
+                                       <content>
+                                          <GridPane alignment="CENTER" minWidth="750.0" prefHeight="538.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Label alignment="CENTER" prefHeight="48.0" prefWidth="180.0" styleClass="month-label" text="January" />
+                                                <TableView fx:id="januaryAppointmentTypesTableView" prefHeight="94.0" prefWidth="187.0" styleClass="type-summary-table" GridPane.rowIndex="1">
+                                                   <columns>
+                                                      <TableColumn fx:id="januaryTypes" prefWidth="92.0" text="Type" />
+                                                      <TableColumn fx:id="januaryCount" prefWidth="105.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <Label alignment="CENTER" prefHeight="56.0" prefWidth="224.0" styleClass="month-label" text="February" GridPane.columnIndex="1" />
+                                                <Label alignment="CENTER" prefHeight="42.0" prefWidth="188.0" styleClass="month-label" text="March" textAlignment="CENTER" GridPane.columnIndex="2" />
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="49.0" prefWidth="179.0" styleClass="month-label" text="April" GridPane.columnIndex="3" />
+                                                <Label alignment="CENTER" prefHeight="42.0" prefWidth="174.0" styleClass="month-label" text="May" GridPane.rowIndex="2" />
+                                                <Label alignment="CENTER" prefHeight="55.0" prefWidth="225.0" styleClass="month-label" text="June" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                <Label alignment="CENTER" prefHeight="50.0" prefWidth="204.0" styleClass="month-label" text="July" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                                                <Label alignment="CENTER" prefHeight="47.0" prefWidth="193.0" styleClass="month-label" text="August" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                                                <Label alignment="CENTER" prefHeight="60.0" prefWidth="176.0" styleClass="month-label" text="September" GridPane.rowIndex="4" />
+                                                <Label alignment="CENTER" prefHeight="69.0" prefWidth="228.0" styleClass="month-label" text="October" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                <Label alignment="CENTER" prefHeight="66.0" prefWidth="197.0" styleClass="month-label" text="November" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                                                <Label alignment="CENTER" prefHeight="47.0" prefWidth="194.0" styleClass="month-label" text="December" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                                                <TableView fx:id="februaryAppointmentTypesTableVeiw" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                   <columns>
+                                                      <TableColumn fx:id="februaryTypes" prefWidth="102.0" text="Type" />
+                                                      <TableColumn fx:id="februaryCount" prefWidth="116.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="marchAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                                   <columns>
+                                                      <TableColumn fx:id="marchTypes" prefWidth="104.0" text="Type" />
+                                                      <TableColumn fx:id="marchCount" prefWidth="103.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="aprilAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                                   <columns>
+                                                      <TableColumn fx:id="aprilTypes" prefWidth="92.0" text="Type" />
+                                                      <TableColumn fx:id="aprilCount" prefWidth="81.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="mayAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.rowIndex="3">
+                                                   <columns>
+                                                      <TableColumn fx:id="mayTypes" prefWidth="106.0" text="Type" />
+                                                      <TableColumn fx:id="mayCount" prefWidth="67.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="juneAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                                   <columns>
+                                                      <TableColumn fx:id="juneTypes" prefWidth="103.0" text="Type" />
+                                                      <TableColumn fx:id="juneCount" prefWidth="101.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="julyAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                                   <columns>
+                                                      <TableColumn fx:id="julyTypes" prefWidth="100.0" text="Type" />
+                                                      <TableColumn fx:id="julyCount" prefWidth="93.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="augustAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                                   <columns>
+                                                      <TableColumn fx:id="augustTypes" prefWidth="99.0" text="Type" />
+                                                      <TableColumn fx:id="augustCount" prefWidth="74.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="septemberAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.rowIndex="5">
+                                                   <columns>
+                                                      <TableColumn fx:id="septemberTypes" prefWidth="75.0" text="Type" />
+                                                      <TableColumn fx:id="septemberCount" prefWidth="75.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="octoberAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                                   <columns>
+                                                      <TableColumn fx:id="octoberTypes" prefWidth="75.0" text="Type" />
+                                                      <TableColumn fx:id="octoberCount" prefWidth="75.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="novemberAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                                   <columns>
+                                                      <TableColumn fx:id="novemberTypes" prefWidth="75.0" text="Type" />
+                                                      <TableColumn fx:id="novemberCount" prefWidth="75.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                                <TableView fx:id="decemberAppointmentTypesTableView" prefHeight="200.0" prefWidth="200.0" styleClass="type-summary-table" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                                   <columns>
+                                                      <TableColumn fx:id="decemberTypes" minWidth="0.0" prefWidth="62.0" text="Type" />
+                                                      <TableColumn fx:id="decemberCount" prefWidth="88.0" text="Count" />
+                                                   </columns>
+                                                </TableView>
+                                             </children>
+                                             <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="217.0" minWidth="10.0" prefWidth="177.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="314.0" minWidth="10.0" prefWidth="206.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="227.0" minWidth="10.0" prefWidth="196.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="174.0" minWidth="10.0" prefWidth="174.0" />
+                                             </columnConstraints>
+                                             <rowConstraints>
+                                                <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="41.0" valignment="BOTTOM" vgrow="NEVER" />
+                                                <RowConstraints maxHeight="195.0" minHeight="10.0" prefHeight="194.0" vgrow="SOMETIMES" />
+                                                <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="35.0" valignment="BOTTOM" vgrow="NEVER" />
+                                                <RowConstraints maxHeight="194.0" minHeight="10.0" prefHeight="146.0" vgrow="SOMETIMES" />
+                                                <RowConstraints maxHeight="36.0" minHeight="9.0" prefHeight="34.0" valignment="BOTTOM" vgrow="NEVER" />
+                                                <RowConstraints maxHeight="194.0" minHeight="10.0" prefHeight="156.0" vgrow="SOMETIMES" />
+                                             </rowConstraints>
+                                          </GridPane>
+                                       </content>
+                                    </ScrollPane>
+                                    <Label alignment="CENTER_RIGHT" layoutX="503.0" layoutY="16.0" prefHeight="27.0" prefWidth="85.0" text="Year:" />
+                                    <ChoiceBox fx:id="yearChoiceBox" layoutX="603.0" layoutY="16.0" prefWidth="150.0" onAction="#appointmentByTypeButtonAction" />
+                                 </children>
+                        </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="Appointments By Customer">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label alignment="CENTER_RIGHT" layoutX="505.0" layoutY="16.0" prefHeight="27.0" prefWidth="85.0" text="Customer:" />
+                                    <ChoiceBox fx:id="customerChoiceBox" layoutX="603.0" layoutY="16.0" onAction="#appointmentByCustomerhoiceBoxAction" prefWidth="150.0" />
+                                    <TableView fx:id="customerTableView" layoutY="51.0" prefHeight="318.0" prefWidth="767.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="51.0">
+                                    <columns>
+                                        <TableColumn fx:id="customerColumn" prefWidth="155.0" text="Customer" />
+                                        <TableColumn fx:id="customerStartColumn" prefWidth="82.0" text="Start Time" />
+                                        <TableColumn fx:id="customerEndColumn" prefWidth="98.0" text="End Time" />
+                                        <TableColumn fx:id="customerUserColumn" prefWidth="122.0" text="Consultant" />
+                                        <TableColumn fx:id="customerLocationColumn" prefWidth="195.0" text="Location" />
+                                        <TableColumn fx:id="customerTypeColumn" prefWidth="84.0" text="Type" />
+                                    </columns>
+                                
+                                </TableView>
+                                 </children>
+                          </AnchorPane>
+                        </content>
+                        </Tab>
+                        <Tab text="Appointments By User">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TableView fx:id="userTableView" layoutY="48.0" prefHeight="321.0" prefWidth="767.0">
+                                       <columns>
+                                          <TableColumn fx:id="userColumn" prefWidth="137.0" text="User" />
+                                          <TableColumn fx:id="userStartColumn" prefWidth="140.0" text="Start Time" />
+                                          <TableColumn fx:id="userEndColumn" prefWidth="132.0" text="End Time" />
+                                          <TableColumn fx:id="userCustomerColumn" prefWidth="128.0" text="Customer" />
+                                          <TableColumn fx:id="userLocationColumn" prefWidth="163.0" text="Location" />
+                                          <TableColumn fx:id="userTypeColumn" prefWidth="75.0" text="Type" />
+                                       </columns>
+                                       <placeholder>
+                                          <Label text="No results" />
+                                       </placeholder>
+                                    </TableView>
+                                    <ChoiceBox fx:id="userChoiceBox" layoutX="605.0" layoutY="14.0" onAction="#appointmentByUserChoiceBoxAction" prefWidth="150.0" />
+                                    <Label alignment="CENTER_RIGHT" layoutX="514.0" layoutY="14.0" prefHeight="27.0" prefWidth="74.0" text="User:" />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

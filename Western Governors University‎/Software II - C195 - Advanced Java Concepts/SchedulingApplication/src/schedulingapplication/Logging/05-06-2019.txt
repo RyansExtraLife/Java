@@ -1,0 +1,205 @@
+05/06/2019 04:43:29:60209587 PM : System Log :  Login Window has been initialized.
+05/06/2019 04:43:38:60218420 PM: System Log : Establishing connection with database.
+05/06/2019 04:43:38:60218533 PM: System Log : Disconnecting with database.
+05/06/2019 04:43:38:60218534 PM : patterson : Sucessfully logged in. 
+05/06/2019 04:43:38:60218576 PM: System Log : Report Window has been initialized.
+05/06/2019 04:44:53:60293598 PM:   :  
+05/06/2019 04:44:53:60293624 PM: System Log : Login Window has been initialized.
+05/06/2019 04:44:58:60298689 PM: System Log : Establishing connection with database.
+05/06/2019 04:44:58:60298773 PM : 1 : Sucessfully logged in. 
+05/06/2019 04:44:58:60298774 PM: System Log : Disconnecting with database.
+05/06/2019 04:45:13:60313197 PM: System Log : Login Window has been initialized.
+05/06/2019 04:45:59:60359853 PM: System Log : Application language changed to French.
+05/06/2019 04:46:01:60361744 PM: System Log : Establishing connection with database.
+05/06/2019 04:46:01:60361823 PM: System Log : Disconnecting with database.
+05/06/2019 04:46:01:60361824 PM : patterson : Sucessfully logged in. 
+05/06/2019 04:46:01:60361842 PM: System Log : Report Window has been initialized.
+05/06/2019 04:46:05:60365770 PM:   :  
+05/06/2019 04:46:05:60365789 PM: System Log : Login Window has been initialized.
+05/06/2019 04:46:10:60370992 PM: System Log : Application language changed to Spanish.
+05/06/2019 04:46:12:60372383 PM: System Log : Establishing connection with database.
+05/06/2019 04:46:12:60372465 PM : patterson : Sucessfully logged in. 
+05/06/2019 04:46:12:60372466 PM: System Log : Disconnecting with database.
+05/06/2019 04:50:57:60657804 PM: System Log : Login Window has been initialized.
+05/06/2019 04:51:09:60669933 PM: System Log : Login Window has been initialized.
+05/06/2019 04:51:16:60676464 PM: System Log : Application language changed to Spanish.
+05/06/2019 04:51:18:60678106 PM: System Log : Establishing connection with database.
+05/06/2019 04:51:18:60678221 PM : 1 : Sucessfully logged in. 
+05/06/2019 04:51:18:60678227 PM: System Log : Disconnecting with database.
+05/06/2019 04:51:22:60682854 PM: System Log : Application language changed to French.
+05/06/2019 04:51:24:60684359 PM: System Log : Establishing connection with database.
+05/06/2019 04:51:24:60684443 PM : 1 : Sucessfully logged in. 
+05/06/2019 04:51:24:60684445 PM: System Log : Disconnecting with database.
+05/06/2019 04:52:38:60758554 PM: System Log : Application language changed to English.
+05/06/2019 04:52:49:60769478 PM: System Log : Establishing connection with database.
+05/06/2019 04:52:49:60769563 PM: System Log : Disconnecting with database.
+05/06/2019 04:52:49:60769564 PM : patterson : Sucessfully logged in. 
+05/06/2019 04:52:49:60769614 PM: System Log : Report Window has been initialized.
+05/06/2019 04:52:55:60775095 PM: System Log : Application language changed to Spanish.
+05/06/2019 04:52:58:60778468 PM: System Log : Application language changed to English.
+05/06/2019 04:52:59:60779635 PM: System Log : Customer Window has been initialized.
+05/06/2019 08:21:03:73263906 PM: System Log : Login Window has been initialized.
+05/06/2019 08:21:18:73278122 PM: System Log : Establishing connection with database.
+05/06/2019 08:21:18:73278244 PM: System Log : Disconnecting with database.
+05/06/2019 08:21:18:73278244 PM : patterson : Sucessfully logged in. 
+05/06/2019 08:21:18:73278313 PM: System Log : Report Window has been initialized.
+05/06/2019 08:21:20:73280660 PM: System Log : Customer Window has been initialized.
+05/06/2019 09:05:46:75946580 PM: System Log : Login Window has been initialized.
+05/06/2019 09:05:51:75951045 PM: System Log : Establishing connection with database.
+05/06/2019 09:05:51:75951168 PM : 1 : Sucessfully logged in. 
+05/06/2019 09:05:51:75951176 PM: System Log : Disconnecting with database.
+05/06/2019 09:06:03:75963151 PM: System Log : Establishing connection with database.
+05/06/2019 09:06:03:75963236 PM: System Log : Disconnecting with database.
+05/06/2019 09:06:03:75963236 PM : patterson : Sucessfully logged in. 
+05/06/2019 09:06:03:75963289 PM: System Log : Report Window has been initialized.
+05/06/2019 09:06:05:75965242 PM: System Log : Customer Window has been initialized.
+05/06/2019 09:54:56:78896524 PM: System Log : Login Window has been initialized.
+05/06/2019 09:55:05:78905732 PM: System Log : Establishing connection with database.
+05/06/2019 09:55:05:78905849 PM : 1 : Sucessfully logged in. 
+05/06/2019 09:55:05:78905856 PM: System Log : Disconnecting with database.
+05/06/2019 09:55:14:78914256 PM: System Log : Establishing connection with database.
+05/06/2019 09:55:14:78914338 PM: System Log : Disconnecting with database.
+05/06/2019 09:55:14:78914339 PM : patterson : Sucessfully logged in. 
+05/06/2019 09:55:14:78914390 PM: System Log : Report Window has been initialized.
+05/06/2019 09:55:17:78917158 PM: System Log : Customer Window has been initialized.
+05/06/2019 09:58:30:79110670 PM: System Log : Login Window has been initialized.
+05/06/2019 09:58:38:79118301 PM: System Log : Establishing connection with database.
+05/06/2019 09:58:38:79118438 PM: System Log : Disconnecting with database.
+05/06/2019 09:58:38:79118438 PM : patterson : Sucessfully logged in. 
+05/06/2019 09:58:38:79118497 PM: System Log : Report Window has been initialized.
+05/06/2019 09:58:40:79120134 PM: System Log : Report Window has been initialized.
+05/06/2019 09:58:42:79122129 PM: System Log : Customer Window has been initialized.
+05/06/2019 09:59:36:79176636 PM: System Log : Login Window has been initialized.
+05/06/2019 09:59:45:79185469 PM: System Log : Establishing connection with database.
+05/06/2019 09:59:45:79185590 PM: System Log : Disconnecting with database.
+05/06/2019 09:59:45:79185591 PM : patterson : Sucessfully logged in. 
+05/06/2019 09:59:45:79185652 PM: System Log : Report Window has been initialized.
+05/06/2019 09:59:47:79187533 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:00:20:79220760 PM: System Log : Login Window has been initialized.
+05/06/2019 10:00:31:79231453 PM: System Log : Establishing connection with database.
+05/06/2019 10:00:31:79231582 PM: System Log : Disconnecting with database.
+05/06/2019 10:00:31:79231584 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:00:31:79231646 PM: System Log : Report Window has been initialized.
+05/06/2019 10:00:33:79233204 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:02:02:79322761 PM: System Log : Login Window has been initialized.
+05/06/2019 10:02:10:79330434 PM: System Log : Establishing connection with database.
+05/06/2019 10:02:10:79330550 PM: System Log : Disconnecting with database.
+05/06/2019 10:02:10:79330550 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:02:10:79330613 PM: System Log : Report Window has been initialized.
+05/06/2019 10:02:12:79332052 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:02:25:79345280 PM: patterson : Sucessfully created a new Customer.
+05/06/2019 10:02:25:79345310 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:03:22:79402855 PM: patterson : Sucessfully created a new Customer.
+05/06/2019 10:03:22:79402884 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:22:38:80558522 PM: System Log : Login Window has been initialized.
+05/06/2019 10:22:49:80569677 PM: System Log : Establishing connection with database.
+05/06/2019 10:22:49:80569810 PM: System Log : Disconnecting with database.
+05/06/2019 10:22:49:80569813 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:22:49:80569879 PM: System Log : Report Window has been initialized.
+05/06/2019 10:22:51:80571294 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:22:51:80571932 PM: System Log : Establishing connection with database.
+05/06/2019 10:22:52:80572019 PM: System Log : Disconnecting with database.
+05/06/2019 10:24:23:80663682 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:24:24:80664326 PM: System Log : Establishing connection with database.
+05/06/2019 10:24:24:80664415 PM: System Log : Disconnecting with database.
+05/06/2019 10:24:31:80671165 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:24:31:80671841 PM: System Log : Establishing connection with database.
+05/06/2019 10:24:31:80671924 PM: System Log : Disconnecting with database.
+05/06/2019 10:24:50:80690227 PM: System Log : Login Window has been initialized.
+05/06/2019 10:24:59:80699755 PM: System Log : Establishing connection with database.
+05/06/2019 10:24:59:80699886 PM: System Log : Disconnecting with database.
+05/06/2019 10:24:59:80699887 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:24:59:80699945 PM: System Log : Report Window has been initialized.
+05/06/2019 10:25:01:80701718 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:25:02:80702351 PM: System Log : Establishing connection with database.
+05/06/2019 10:25:02:80702435 PM: System Log : Disconnecting with database.
+05/06/2019 10:27:31:80851778 PM: System Log : Login Window has been initialized.
+05/06/2019 10:27:40:80860965 PM: System Log : Establishing connection with database.
+05/06/2019 10:27:41:80861085 PM: System Log : Disconnecting with database.
+05/06/2019 10:27:41:80861085 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:27:41:80861150 PM: System Log : Report Window has been initialized.
+05/06/2019 10:27:42:80862299 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:27:42:80862934 PM: System Log : Establishing connection with database.
+05/06/2019 10:27:43:80863023 PM: System Log : Disconnecting with database.
+05/06/2019 10:28:46:80926250 PM: System Log : Login Window has been initialized.
+05/06/2019 10:28:53:80933871 PM: System Log : Establishing connection with database.
+05/06/2019 10:28:54:80934001 PM: System Log : Disconnecting with database.
+05/06/2019 10:28:54:80934002 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:28:54:80934077 PM: System Log : Report Window has been initialized.
+05/06/2019 10:28:56:80936127 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:28:56:80936761 PM: System Log : Establishing connection with database.
+05/06/2019 10:28:56:80936851 PM: System Log : Disconnecting with database.
+05/06/2019 10:29:31:80971097 PM: System Log : Login Window has been initialized.
+05/06/2019 10:29:39:80979062 PM: System Log : Establishing connection with database.
+05/06/2019 10:29:39:80979177 PM: System Log : Disconnecting with database.
+05/06/2019 10:29:39:80979178 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:29:39:80979223 PM: System Log : Report Window has been initialized.
+05/06/2019 10:29:40:80980708 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:29:41:80981335 PM: System Log : Establishing connection with database.
+05/06/2019 10:29:41:80981421 PM: System Log : Disconnecting with database.
+05/06/2019 10:29:55:80995837 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:29:56:80996462 PM: System Log : Establishing connection with database.
+05/06/2019 10:29:56:80996549 PM: System Log : Disconnecting with database.
+05/06/2019 10:32:29:81149941 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:32:29:81149958 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:32:30:81150583 PM: System Log : Establishing connection with database.
+05/06/2019 10:32:30:81150673 PM: System Log : Disconnecting with database.
+05/06/2019 10:33:44:81224717 PM: System Log : Login Window has been initialized.
+05/06/2019 10:33:55:81235500 PM: System Log : Establishing connection with database.
+05/06/2019 10:33:55:81235631 PM: System Log : Disconnecting with database.
+05/06/2019 10:33:55:81235631 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:33:55:81235690 PM: System Log : Report Window has been initialized.
+05/06/2019 10:33:59:81239133 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:33:59:81239761 PM: System Log : Establishing connection with database.
+05/06/2019 10:33:59:81239849 PM: System Log : Disconnecting with database.
+05/06/2019 10:34:26:81266380 PM: System Log : Login Window has been initialized.
+05/06/2019 10:34:36:81276872 PM: System Log : Establishing connection with database.
+05/06/2019 10:34:36:81276995 PM: System Log : Disconnecting with database.
+05/06/2019 10:34:36:81276996 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:34:37:81277063 PM: System Log : Report Window has been initialized.
+05/06/2019 10:34:39:81279071 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:34:39:81279697 PM: System Log : Establishing connection with database.
+05/06/2019 10:34:39:81279782 PM: System Log : Disconnecting with database.
+05/06/2019 10:35:24:81324846 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:35:24:81324879 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:35:25:81325499 PM: System Log : Establishing connection with database.
+05/06/2019 10:35:25:81325582 PM: System Log : Disconnecting with database.
+05/06/2019 10:35:39:81339383 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:35:39:81339411 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:35:40:81340034 PM: System Log : Establishing connection with database.
+05/06/2019 10:35:40:81340119 PM: System Log : Disconnecting with database.
+05/06/2019 10:37:48:81468377 PM: System Log : Login Window has been initialized.
+05/06/2019 10:37:56:81476219 PM: System Log : Establishing connection with database.
+05/06/2019 10:37:56:81476333 PM: System Log : Disconnecting with database.
+05/06/2019 10:37:56:81476334 PM : patterson : Sucessfully logged in. 
+05/06/2019 10:37:56:81476380 PM: System Log : Report Window has been initialized.
+05/06/2019 10:37:59:81479335 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:37:59:81479974 PM: System Log : Establishing connection with database.
+05/06/2019 10:38:00:81480061 PM: System Log : Disconnecting with database.
+05/06/2019 10:38:13:81493582 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:38:14:81494206 PM: System Log : Establishing connection with database.
+05/06/2019 10:38:14:81494288 PM: System Log : Disconnecting with database.
+05/06/2019 10:38:17:81497868 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:38:18:81498494 PM: System Log : Establishing connection with database.
+05/06/2019 10:38:18:81498579 PM: System Log : Disconnecting with database.
+05/06/2019 10:38:18:81498748 PM: System Log : Report Window has been initialized.
+05/06/2019 10:38:19:81499463 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:38:20:81500103 PM: System Log : Establishing connection with database.
+05/06/2019 10:38:20:81500191 PM: System Log : Disconnecting with database.
+05/06/2019 10:38:40:81520038 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:38:49:81529900 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:38:58:81538094 PM: patterson : Sucessfully updated a Customer.
+05/06/2019 10:38:58:81538111 PM: System Log : Customer Window has been initialized.
+05/06/2019 10:38:58:81538733 PM: System Log : Establishing connection with database.
+05/06/2019 10:38:58:81538815 PM: System Log : Disconnecting with database.
+05/06/2019 10:41:50:81710179 PM: System Log : Report Window has been initialized.
+05/06/2019 10:41:55:81715792 PM: System Log : Report Window has been initialized.
+05/06/2019 11:08:49:83329054 PM: System Log : Login Window has been initialized.
+05/06/2019 11:08:58:83338810 PM: System Log : Establishing connection with database.
+05/06/2019 11:08:58:83338931 PM: System Log : Disconnecting with database.
+05/06/2019 11:08:58:83338931 PM : patterson : Sucessfully logged in. 
+05/06/2019 11:09:53:83393395 PM: System Log : Login Window has been initialized.
+05/06/2019 11:10:03:83403127 PM: System Log : Establishing connection with database.
+05/06/2019 11:10:03:83403255 PM: System Log : Disconnecting with database.
+05/06/2019 11:10:03:83403256 PM : patterson : Sucessfully logged in. 
+05/06/2019 11:10:04:83404043 PM: System Log : Report Window has been initialized.

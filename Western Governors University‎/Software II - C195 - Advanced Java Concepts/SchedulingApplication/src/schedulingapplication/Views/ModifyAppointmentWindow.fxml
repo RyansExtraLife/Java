@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.ModifyAppointmentWindowController">
+   <children>
+      <Pane layoutX="6.0" layoutY="85.0" prefHeight="456.0" prefWidth="463.0" style="-fx-background-color: #e0e1e4;">
+         <children>
+            <Pane layoutX="8.0" prefHeight="446.0" prefWidth="448.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+               <children>
+                  <Label fx:id="userLabel" alignment="CENTER_RIGHT" layoutX="-4.0" layoutY="288.0" prefHeight="27.0" prefWidth="107.0" text="User:" />
+                  <ChoiceBox fx:id="customerChoiceBox" layoutX="110.0" layoutY="183.0" prefHeight="27.0" prefWidth="300.0" />
+                  <ChoiceBox fx:id="userChoiceBox" layoutX="111.0" layoutY="289.0" prefHeight="27.0" prefWidth="300.0" />
+               </children></Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="6.0" layoutY="77.0" prefHeight="8.0" prefWidth="463.0" style="-fx-background-color: #cdcfce;" />
+      <Pane layoutX="6.0" layoutY="9.0" prefHeight="68.0" prefWidth="463.0" style="-fx-background-color: #f2f3f7;">
+         <children>
+            <Label fx:id="modifyAppointmentLabel" alignment="CENTER" layoutX="5.0" prefHeight="68.0" prefWidth="457.0" text="Modify Appointment" />
+         </children>
+      </Pane>
+      <Label fx:id="titleLabel" alignment="CENTER_RIGHT" layoutX="9.0" layoutY="113.0" prefHeight="27.0" prefWidth="107.0" text="Title:" />
+      <TextField fx:id="titleTextField" layoutX="124.0" layoutY="113.0" prefHeight="27.0" prefWidth="300.0" />
+      <Label fx:id="startDateLabel" alignment="CENTER_RIGHT" layoutX="9.0" layoutY="148.0" prefHeight="27.0" prefWidth="107.0" text="Start Date:" />
+      <DatePicker fx:id="startDateDatePicker" layoutX="125.0" layoutY="148.0" prefHeight="27.0" prefWidth="130.0" /> 
+      <Label fx:id="startTimeLabel" alignment="CENTER_RIGHT" layoutX="254.0" layoutY="148.0" prefHeight="27.0" prefWidth="61.0" text="Time:" />
+      <TextField fx:id="startTimeTextField" layoutX="318.0" layoutY="148.0" prefHeight="27.0" prefWidth="107.0" />
+      <Label fx:id="endDateLabel" alignment="CENTER_RIGHT" layoutX="8.0" layoutY="195.0" prefHeight="17.0" prefWidth="107.0" text="End Date:" />
+      <DatePicker fx:id="endDateDatePicker" layoutX="125.0" layoutY="190.0" prefHeight="27.0" prefWidth="130.0" />
+      <Label fx:id="endTimeLabel" alignment="CENTER_RIGHT" layoutX="254.0" layoutY="190.0" prefHeight="27.0" prefWidth="61.0" text="Time:" />
+      <TextField fx:id="endTimeTextField" layoutX="318.0" layoutY="190.0" prefHeight="27.0" prefWidth="107.0" />
+      <Label fx:id="locationLabel" alignment="CENTER_RIGHT" layoutX="9.0" layoutY="231.0" prefHeight="27.0" prefWidth="107.0" text="Location:" />
+      <TextField fx:id="locationTextField" layoutX="125.0" layoutY="231.0" prefHeight="27.0" prefWidth="300.0" />
+      <Label fx:id="contactLabel" alignment="CENTER_RIGHT" layoutX="9.0" layoutY="270.0" prefHeight="27.0" prefWidth="107.0" text="Contact:" />
+      <Label fx:id="typeLabel" alignment="CENTER_RIGHT" layoutX="8.0" layoutY="305.0" prefHeight="27.0" prefWidth="107.0" text="Type:" />
+      <TextField fx:id="typeTextField" layoutX="125.0" layoutY="305.0" prefHeight="27.0" prefWidth="300.0" />
+      <Label fx:id="urlLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="341.0" prefHeight="27.0" prefWidth="107.0" text="URL:" />
+      <TextField fx:id="urlTextField" layoutX="125.0" layoutY="341.0" prefHeight="27.0" prefWidth="300.0" />
+      <Label fx:id="descriptionLabel" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="405.0" prefHeight="27.0" prefWidth="107.0" text="Description:" />
+      <TextArea fx:id="descriptionTextArea" layoutX="125.0" layoutY="408.0" prefHeight="47.0" prefWidth="300.0" />
+      <Label fx:id="selectLocale" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="482.0" prefHeight="27.0" prefWidth="61.0" text="Locale:" />
+      <ComboBox fx:id="languageComboBox" layoutX="88.0" layoutY="482.0" onAction="#changeInComboBox" prefWidth="150.0" value="United States">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="United States" />
+                <String fx:value="Spain" />
+                <String fx:value="France" />
+                </FXCollections>
+        </items>
+      </ComboBox>
+      <Button fx:id="saveButton" layoutX="294.0" layoutY="482.0" mnemonicParsing="false" onAction="#saveButtonActioned" text="Save" />
+      <Button fx:id="cancelButton" layoutX="363.0" layoutY="482.0" mnemonicParsing="false" onAction="#cancelButtonActioned" text="Cancel" />
+      </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.LoginWindowController">
+    <children>
+        <Pane layoutX="10.0" layoutY="10.0" prefHeight="300.0" prefWidth="500.0" styleClass="card" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Pane layoutX="37.0" layoutY="53.0" prefHeight="285.0" prefWidth="515.0" style="-fx-background-color: #e0e1e4;">
+               <children>
+                  <Pane layoutX="4.0" layoutY="5.0" prefHeight="274.0" prefWidth="507.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+                     <children>
+                        <Pane prefHeight="78.0" prefWidth="507.0" style="-fx-background-color: #f2f3f7;">
+                           <children>
+                              <Label fx:id="applicationHeaderLabel" alignment="CENTER" layoutX="13.0" layoutY="16.0" prefHeight="44.0" prefWidth="478.0" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="78.0" prefHeight="6.0" prefWidth="507.0" style="-fx-background-color: #cdcfce;" />
+                        <Label fx:id="usernameLoginLabel" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="105.0" prefHeight="37.0" prefWidth="150.0" />
+                        <TextField fx:id="usernameLoginTextField" layoutX="170.0" layoutY="105.0" prefHeight="37.0" prefWidth="208.0" />
+                        <Label fx:id="passwordLoginLabel" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="166.0" prefHeight="37.0" prefWidth="150.0" />
+                        <PasswordField fx:id="passwordLoginTextField" layoutX="170.0" layoutY="165.0" prefHeight="37.0" prefWidth="208.0" />
+                        <Button fx:id="loginButton" layoutX="370.0" layoutY="228.0" mnemonicParsing="false" onAction="#loginButtonActioned" prefHeight="27.0" prefWidth="118.0" />
+                        <Label fx:id="selectLocale" layoutX="25.0" layoutY="233.0" />
+                        <ComboBox fx:id="languageComboBox" layoutX="74.0" layoutY="228.0" onAction="#changeInComboBox" prefWidth="150.0" value="United States">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="United States" />
+                                    <String fx:value="Spain" />
+                                    <String fx:value="France" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+        </Pane>
+    </children>
+</AnchorPane>

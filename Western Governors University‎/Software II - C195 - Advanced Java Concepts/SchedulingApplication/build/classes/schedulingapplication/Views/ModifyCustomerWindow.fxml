@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.ModifyCustomerWindowController">
+   <children>
+      <Pane layoutX="6.0" layoutY="6.0" prefHeight="463.0" prefWidth="435.0" style="-fx-background-color: #e0e1e4;">
+         <children>
+            <Pane layoutX="8.0" layoutY="47.0" prefHeight="407.0" prefWidth="419.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+               <children>
+                  <Label fx:id="customerNameLabel" alignment="CENTER_RIGHT" layoutX="13.0" layoutY="59.0" prefHeight="27.0" prefWidth="107.0" />
+                  <Label fx:id="phoneNumberLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="96.0" prefHeight="27.0" prefWidth="107.0"  />
+                  <Label fx:id="addressLineOneLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="130.0" prefHeight="27.0" prefWidth="107.0"  />
+                  <Label fx:id="addressLineTwoLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="167.0" prefHeight="27.0" prefWidth="107.0" />
+                  <Label fx:id="cityLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="246.0" prefHeight="27.0" prefWidth="107.0"  />
+                  <Label fx:id="postalCodeLabel" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="284.0" prefHeight="27.0" prefWidth="107.0" />
+                  <Label fx:id="countryLabel" alignment="CENTER_RIGHT" layoutX="13.0" layoutY="208.0" prefHeight="27.0" prefWidth="107.0"  />
+                  <TextField fx:id="customerNameTextField" layoutX="121.0" layoutY="59.0" prefHeight="27.0" prefWidth="245.0" />
+                  <TextField fx:id="phoneNumberTextField" layoutX="121.0" layoutY="96.0" prefHeight="27.0" prefWidth="122.0" />
+                  <TextField fx:id="addressLineOneTextField" layoutX="121.0" layoutY="130.0" prefHeight="27.0" prefWidth="245.0" />
+                  <TextField fx:id="addressLineTwoTextField" layoutX="121.0" layoutY="167.0" prefHeight="27.0" prefWidth="245.0" />
+                  <TextField fx:id="cityTextField" layoutX="121.0" layoutY="208.0" prefHeight="27.0" prefWidth="245.0" />
+                  <TextField fx:id="postalCodeTextField" layoutX="121.0" layoutY="246.0" prefHeight="27.0" prefWidth="122.0" />
+                  <TextField fx:id="countryTextField" layoutX="121.0" layoutY="285.0" prefHeight="27.0" prefWidth="245.0" />
+                  <Button fx:id="saveButton" layoutX="271.0" layoutY="367.0" mnemonicParsing="false" onAction="#saveButtonActioned" text="Save" />
+                  <Button fx:id="cancelButton" layoutX="336.0" layoutY="367.0" mnemonicParsing="false" onAction="#cancelButtonActioned" text="Cancel" />
+                  <CheckBox fx:id="activeUserCheckBox" layoutX="271.0" layoutY="322.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" />
+                  <Pane layoutX="-8.0" layoutY="21.0" prefHeight="6.0" prefWidth="435.0" style="-fx-background-color: #cdcfce;" />
+                  <Label fx:id="selectLocale" alignment="CENTER_RIGHT" layoutX="4.0" layoutY="367.0" prefHeight="27.0" prefWidth="69.0" text="Label" />
+                  <ComboBox fx:id="languageComboBox" layoutX="82.0" layoutY="367.0" prefWidth="150.0" onAction="#changeInLanguageComboBox" value="United States">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="United States" />
+                                    <String fx:value="Spain" />
+                                    <String fx:value="France" />
+                        </FXCollections>
+                    </items>
+                   </ComboBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="68.0" prefWidth="435.0" style="-fx-background-color: #f2f3f7;">
+               <children>
+                  <Label fx:id="headerlabe" alignment="CENTER" layoutX="5.0" prefHeight="68.0" prefWidth="425.0"  />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SchedulingApplication.jnlp">
+  <information>
+    <title>SchedulingApplication</title>
+    <vendor>ryanmichael</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SchedulingApplication.jar" size="2266255" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.16.jar" size="2293144" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SchedulingApplication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="schedulingapplication.SchedulingApplication"  name="SchedulingApplication" />
+  <update check="always"/>
+</jnlp>

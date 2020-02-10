@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.AppointmentWindowController">
+   <children>
+      <Pane prefHeight="92.0" prefWidth="785.0" style="-fx-background-color: #f2f3f7;">
+         <children>
+            <Label fx:id="appointmentHeaderLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="74.0" prefWidth="767.0" />
+         </children></Pane>
+      <Pane layoutY="92.0" prefHeight="9.0" prefWidth="785.0" style="-fx-background-color: #cdcfce;" />
+      <Pane layoutY="101.0" prefHeight="484.0" prefWidth="785.0" style="-fx-background-color: #e0e1e4;">
+         <children>
+            <Pane layoutX="9.0" prefHeight="474.0" prefWidth="767.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+               <children>
+                  <Pane layoutY="397.0" prefHeight="74.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;">
+                     <children>
+                        <Pane layoutY="70.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                        <Button fx:id="applicaitonWindowButton" layoutX="386.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionAppointmentsButton" />
+                        <Button fx:id="customerWindowButton" layoutX="509.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionCustomersButton" />
+                        <Button fx:id="reportsWindowButton" layoutX="615.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionReportsButton" />
+                        <Button fx:id="exitApplicationButton" layoutX="704.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionExitButton" />
+                        <ComboBox fx:id="languageComboBox" layoutX="84.0" layoutY="26.0" onAction="#changeInLanguageComboBox" prefWidth="150.0" value="United States">
+                            <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="United States" />
+                                    <String fx:value="Spain" />
+                                    <String fx:value="France" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Label fx:id="selectLocale" alignment="CENTER_RIGHT" layoutX="6.0" layoutY="27.0" prefHeight="27.0" prefWidth="66.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="400.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                  <Pane prefHeight="43.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;">
+                     <children>
+                        <Button fx:id="modifyAppointmentWindowButton" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionModifyAppointmentButton" text="Add/Modify" />
+                        <Button fx:id="previousTimeIntervalButton" layoutX="200.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionPreviousTimeIntervalButton" />
+                        <Label fx:id="currentTimeIntervalLabel" alignment="CENTER" layoutX="271.0" layoutY="13.0" prefHeight="17.0" prefWidth="150.0" text="Date Range" />
+                        <Button fx:id="succeedingTimeIntervalButton" layoutX="460.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionSuccedingTimeIntervalButton" />
+                        <ComboBox fx:id="dateRangeComboBox" layoutX="603.0" layoutY="8.0" onAction="#changeInDateRangeComboBox" prefWidth="150.0" value="Sort by: Month">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Sort by: Month" />
+                                    <String fx:value="Sort by: Week" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Button fx:id="deleteAppointmentWindowButton" layoutX="111.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionDeleteAppointmentWindowButton" prefHeight="27.0" prefWidth="26.0" text="-" />
+                     </children></Pane>
+                  <Pane layoutY="43.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                  <TableView fx:id="appointmentTableView" layoutY="52.0" prefHeight="348.0" prefWidth="767.0">
+                    <columns>
+                        <TableColumn fx:id="appointmentTitleColumn" prefWidth="99.0" text="Title" />
+                      <TableColumn fx:id="appointmentStartTimeColumn" prefWidth="155.0" text="StartTime" />
+                      <TableColumn fx:id="appointmentEndTimeColumn" prefWidth="139.0" text="EndTime" />
+                      <TableColumn fx:id="appointmentCustomerColumn" prefWidth="74.0" text="Customer" />
+                      <TableColumn fx:id="appointmentConsultantColumn" prefWidth="84.0" text="Consultant" />
+                      <TableColumn fx:id="appointmentLocationColumn" prefWidth="136.0" text="Location" />
+                      <TableColumn fx:id="appointmentTypeColumn" prefWidth="79.0" text="Type" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

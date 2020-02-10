@@ -1,0 +1,89 @@
+05/08/2019 08:48:32:31712135 AM : System Log :  Login Window has been initialized.
+05/08/2019 08:48:47:31727253 AM: System Log : Establishing connection with database.
+05/08/2019 08:48:47:31727401 AM: System Log : Disconnecting with database.
+05/08/2019 08:48:47:31727401 AM : patterson : Sucessfully logged in. 
+05/08/2019 08:48:49:31729144 AM: System Log : Appointment Window has been initialized.
+05/08/2019 08:48:56:31736436 AM: System Log : Application language changed to Spanish.
+05/08/2019 08:48:59:31739178 AM: System Log : Application language changed to French.
+05/08/2019 08:49:00:31740874 AM: System Log : Application language changed to Spanish.
+05/08/2019 08:49:03:31743489 AM: System Log : Application language changed to French.
+05/08/2019 08:49:06:31746107 AM: System Log : Application language changed to English.
+05/08/2019 08:49:07:31747685 AM: System Log : Application language changed to Spanish.
+05/08/2019 08:49:18:31758269 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:49:19:31759992 AM: System Log : Establishing connection with database.
+05/08/2019 08:49:20:31760074 AM: System Log : Disconnecting with database.
+05/08/2019 08:49:20:31760287 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:49:21:31761386 AM: System Log : Establishing connection with database.
+05/08/2019 08:49:21:31761468 AM: System Log : Disconnecting with database.
+05/08/2019 08:49:21:31761665 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:49:22:31762922 AM: System Log : Establishing connection with database.
+05/08/2019 08:49:23:31763003 AM: System Log : Disconnecting with database.
+05/08/2019 08:49:23:31763193 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:49:24:31764457 AM: System Log : Establishing connection with database.
+05/08/2019 08:49:24:31764535 AM: System Log : Disconnecting with database.
+05/08/2019 08:50:19:31819930 AM: patterson : Sucessfully updated a Customer.
+05/08/2019 08:50:19:31819949 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:50:20:31820810 AM: System Log : Establishing connection with database.
+05/08/2019 08:50:20:31820889 AM: System Log : Disconnecting with database.
+05/08/2019 08:50:41:31841756 AM: patterson : Sucessfully updated a Customer.
+05/08/2019 08:50:41:31841772 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:50:42:31842930 AM: System Log : Establishing connection with database.
+05/08/2019 08:50:43:31843007 AM: System Log : Disconnecting with database.
+05/08/2019 08:50:51:31851260 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:50:53:31853253 AM: System Log : Establishing connection with database.
+05/08/2019 08:50:53:31853332 AM: System Log : Disconnecting with database.
+05/08/2019 08:55:20:32120003 AM: System Log : Application language changed to Spanish.
+05/08/2019 08:55:22:32122334 AM: System Log : Application language changed to French.
+05/08/2019 08:55:23:32123899 AM: System Log : Application language changed to English.
+05/08/2019 08:57:31:32251077 AM: System Log : Login Window has been initialized.
+05/08/2019 08:57:42:32262215 AM: System Log : Establishing connection with database.
+05/08/2019 08:57:42:32262323 AM: System Log : Disconnecting with database.
+05/08/2019 08:57:42:32262324 AM : patterson : Sucessfully logged in. 
+05/08/2019 08:57:44:32264694 AM: System Log : Appointment Window has been initialized.
+05/08/2019 08:57:47:32267363 AM: System Log : Customer Window has been initialized.
+05/08/2019 08:57:49:32269024 AM: System Log : Establishing connection with database.
+05/08/2019 08:57:49:32269104 AM: System Log : Disconnecting with database.
+05/08/2019 02:45:36:53136369 PM: System Log : Login Window has been initialized.
+05/08/2019 02:45:48:53148851 PM: System Log : Establishing connection with database.
+05/08/2019 02:45:48:53148971 PM: System Log : Disconnecting with database.
+05/08/2019 02:45:48:53148971 PM : patterson : Sucessfully logged in. 
+05/08/2019 02:45:51:53151552 PM: System Log : Appointment Window has been initialized.
+05/08/2019 02:46:03:53163962 PM: System Log : Customer Window has been initialized.
+05/08/2019 02:46:06:53166310 PM: System Log : Establishing connection with database.
+05/08/2019 02:46:06:53166416 PM: System Log : Disconnecting with database.
+05/08/2019 02:46:06:53166700 PM: System Log : Customer Window has been initialized.
+05/08/2019 02:46:08:53168217 PM: System Log : Establishing connection with database.
+05/08/2019 02:46:08:53168295 PM: System Log : Disconnecting with database.
+05/08/2019 02:52:04:53524821 PM: System Log : Login Window has been initialized.
+05/08/2019 02:52:25:53545357 PM: System Log : Establishing connection with database.
+05/08/2019 02:52:25:53545467 PM: System Log : Disconnecting with database.
+05/08/2019 02:52:25:53545468 PM : patterson : Sucessfully logged in. 
+05/08/2019 02:52:27:53547743 PM: System Log : Appointment Window has been initialized.
+05/08/2019 02:52:34:53554680 PM: System Log : Customer Window has been initialized.
+05/08/2019 02:52:37:53557348 PM: System Log : Establishing connection with database.
+05/08/2019 02:52:37:53557430 PM: System Log : Disconnecting with database.
+05/08/2019 02:52:50:53570122 PM: patterson : Sucessfully updated a Customer.
+05/08/2019 02:52:54:53574195 PM: System Log : Appointment Window has been initialized.
+05/08/2019 02:52:55:53575073 PM: System Log : Customer Window has been initialized.
+05/08/2019 02:52:56:53576826 PM: System Log : Establishing connection with database.
+05/08/2019 02:52:56:53576907 PM: System Log : Disconnecting with database.
+05/08/2019 02:53:10:53590298 PM: patterson : Sucessfully updated a Customer.
+05/08/2019 02:53:18:53598991 PM: patterson : Sucessfully updated a Customer.
+05/08/2019 03:00:39:54039637 PM: System Log : Login Window has been initialized.
+05/08/2019 03:01:08:54068298 PM: System Log : Establishing connection with database.
+05/08/2019 03:01:08:54068443 PM: System Log : Disconnecting with database.
+05/08/2019 03:01:08:54068443 PM : patterson : Sucessfully logged in. 
+05/08/2019 03:01:10:54070437 PM: System Log : Appointment Window has been initialized.
+05/08/2019 03:01:13:54073733 PM: System Log : Customer Window has been initialized.
+05/08/2019 03:01:15:54075317 PM: System Log : Establishing connection with database.
+05/08/2019 03:01:15:54075404 PM: System Log : Disconnecting with database.
+05/08/2019 03:01:40:54100851 PM: patterson : Sucessfully updated a Customer.
+05/08/2019 03:01:46:54106253 PM: System Log : Appointment Window has been initialized.
+05/08/2019 03:02:05:54125330 PM: System Log : Customer Window has been initialized.
+05/08/2019 03:02:07:54127086 PM: System Log : Establishing connection with database.
+05/08/2019 03:02:07:54127169 PM: System Log : Disconnecting with database.
+05/08/2019 03:05:35:54335986 PM: System Log : Customer Window has been initialized.
+05/08/2019 03:05:37:54337769 PM: System Log : Establishing connection with database.
+05/08/2019 03:05:37:54337848 PM: System Log : Disconnecting with database.
+05/08/2019 03:05:41:54341560 PM: System Log : Appointment Window has been initialized.
+05/08/2019 03:05:43:54343212 PM: System Log : Appointment Window has been initialized.

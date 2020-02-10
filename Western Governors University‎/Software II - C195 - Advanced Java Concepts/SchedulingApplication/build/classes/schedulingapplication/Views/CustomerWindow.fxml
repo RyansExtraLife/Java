@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedulingapplication.Views.CustomerWindowController">
+   <children>
+      <Pane layoutY="101.0" prefHeight="484.0" prefWidth="785.0" style="-fx-background-color: #e0e1e4;">
+         <children>
+            <Pane layoutX="9.0" prefHeight="474.0" prefWidth="767.0" style="-fx-background-color: #fbfbfb#fbfbfb;">
+               <children>
+                  <Pane layoutY="397.0" prefHeight="74.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;">
+                     <children>
+                        <Pane layoutY="70.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                        <Button fx:id="applicaitonWindowButton" layoutX="386.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionAppointmentsButton" />
+                        <Button fx:id="customerWindowButton" layoutX="509.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionCustomersButton" />
+                        <Button fx:id="reportsWindowButton" layoutX="615.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionReportsButton" />
+                        <Button fx:id="exitApplicationButton" layoutX="704.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionExitButton" />
+                        <ComboBox fx:id="languageComboBox" layoutX="81.0" layoutY="27.0" onAction="#changeInLanguageComboBox" prefWidth="150.0" value="United States">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="United States" />
+                                    <String fx:value="Spain" />
+                                    <String fx:value="France" />
+                                </FXCollections>
+                             </items>
+                        </ComboBox>
+                        <Label fx:id="selectLocale" alignment="CENTER_RIGHT" layoutX="2.0" layoutY="27.0" prefHeight="27.0" prefWidth="73.0" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="400.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                  <Pane prefHeight="43.0" prefWidth="767.0" style="-fx-background-color: #f2f3f7;">
+                     <children>
+                        <Button fx:id="modifyCustomerWindowButton" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionModifyCustomerButton" text="Add/Modify" />
+                        <Button fx:id="removeCustomerWindowButton" layoutX="107.0" layoutY="8.0" mnemonicParsing="false" onAction="#actionRemoveCustomerButton" text="-" />
+                     </children></Pane>
+                  <Pane layoutY="43.0" prefHeight="9.0" prefWidth="767.0" style="-fx-background-color: #cdcfce;" />
+                  <TableView fx:id="customerTableView" layoutY="52.0" prefHeight="348.0" prefWidth="767.0">
+                    <columns>
+                      <TableColumn fx:id="customerNameColumn" prefWidth="140.0" text="Name" />
+                      <TableColumn fx:id="customerPhoneNumberColumn" prefWidth="99.0" text="Phone" />
+                      <TableColumn fx:id="customerAddressColumn" minWidth="3.0" prefWidth="120.0" text="Address" />
+                      <TableColumn fx:id="customerCityColumn" minWidth="8.0" prefWidth="91.0" text="City" />
+                      <TableColumn fx:id="customerPostalCodeColumn" minWidth="4.0" prefWidth="106.0" text="Post Code" />
+                      <TableColumn fx:id="customerCountryColumn" minWidth="6.0" prefWidth="147.0" text="Country" />
+                      <TableColumn fx:id="customerActiveColumn" prefWidth="59.0" text="Active" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutY="92.0" prefHeight="9.0" prefWidth="785.0" style="-fx-background-color: #cdcfce;" />
+      <Pane prefHeight="92.0" prefWidth="785.0" style="-fx-background-color: #f2f3f7;">
+         <children>
+            <Label fx:id="customerHeaderLabel" alignment="CENTER" layoutX="14.0" layoutY="7.0" prefHeight="81.0" prefWidth="767.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>
